@@ -30,15 +30,15 @@ optional arguments:
 
 1. Butterworth filter:
 
-    low pass filter: $H(u,v)=\frac{1}{1+[D(u,v)/D_0]^{2n}}$
+    low pass filter: ![](./butter_low.svg)
 
-    high pass filter: $H(u,v)=\frac{1}{1+[D_0/D(u,v)]^{2n}}$
+    high pass filter: ![](./butter_high.svg)
 
 2. Gauss filter:
 
-    low pass filter: $H(u,v)=e^{-D^2(u,v)/2D_0^2}$
+    low pass filter: ![](./gauss_low.svg)
 
-    high pass filter: $H(u,v)=1-e^{-D^2(u,v)/2D_0^2}$
+    high pass filter: ![](./gauss_high.svg)
 
 ## Example
 
@@ -50,5 +50,5 @@ There will have a window pop out, which display the process of filter:
 ![](./example_pop_out.png)
 
 After there will have a image named “example_out.jpg” in the folder, which is the result we want:
-<img src="./example_out.jpg" style="zoom:33%;" />
+<img src="./example_out.jpg" style="zoom: 20%;" />
 
