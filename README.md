@@ -1,3 +1,6 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 # Filter image base on Fourier transfer
 
 The filter application written by Erwin for course Numerical Computation(1001).
@@ -30,9 +33,9 @@ optional arguments:
 
 1. Butterworth filter:
 
-    low pass filter: ![](./butter_low.svg)
+    low pass filter: $H(u,v)=\frac{1}{1+[D(u,v)/D_0]^{2n}}$
 
-    high pass filter: ![](./butter_high.svg)
+    high pass filter: $H(u,v)=\frac{1}{1+[D_0/D(u,v)]^{2n}}$
 
 2. Gauss filter:
 
