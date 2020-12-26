@@ -1,6 +1,3 @@
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
 # Filter image base on Fourier transfer
 
 The filter application written by Erwin for course Numerical Computation(1001).
@@ -33,15 +30,15 @@ optional arguments:
 
 1. Butterworth filter:
 
-    low pass filter: $H(u,v)=\frac{1}{1+[D(u,v)/D_0]^{2n}}$
+    low pass filter: <img src="./butter_low.svg" style="zoom:50%;" />
 
-    high pass filter: $H(u,v)=\frac{1}{1+[D_0/D(u,v)]^{2n}}$
+    high pass filter: <img src="./butter_high.svg" style="zoom:50%;" />
 
 2. Gauss filter:
 
-    low pass filter: ![](./gauss_low.svg)
+    low pass filter: <img src="./gauss_low.svg" style="zoom:50%;" />
 
-    high pass filter: ![](./gauss_high.svg)
+    high pass filter: <img src="./gauss_high.svg" style="zoom:50%;" />
 
 ## Example
 
@@ -53,5 +50,5 @@ There will have a window pop out, which display the process of filter:
 ![](./example_pop_out.png)
 
 After there will have a image named “example_out.jpg” in the folder, which is the result we want:
-<img src="./example_out.jpg" style="zoom: 20%;" />
+<img src="./example_out.jpg" style="zoom: 10%;" />
 
